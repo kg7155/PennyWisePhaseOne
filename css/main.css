@@ -1,33 +1,61 @@
-body {
+html, body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 
-ul {
+div {
+    padding-right: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#main {
+  padding-left: 20px;
+  min-width: 75%;
+}
+
+#sidebar {
+  max-width: 25%;
+  min-width: 200px;
+  flex: 1;
+}
+
+#sidebar h3 {
+  padding-left: 20px;
+}
+
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 20%;
-    background-color: #f1f1f1;
+    max-width: 25%;
+    min-width: 200px;
+    background-color: #92C392;
     position: fixed;
     height: 100%;
     overflow: auto;
 }
 
-li a {
+#menu li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-li a:hover:not(.active) {
+#menu li a.active {
     background-color: #555;
-    color: white;
+    color: #DEEDD5;
+}
+
+#menu li a:hover:not(.active) {
+    color: #DEEDD5;
+    font-weight: bold;
 }

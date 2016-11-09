@@ -22,11 +22,15 @@ html, body {
 #sidebar {
   max-width: 25%;
   min-width: 180px;
-  background-color: blue;
 }
 
 #sidebar h3 {
   padding-left: 20px;
+}
+
+#logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #menu {

@@ -7,7 +7,8 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     width: 100%;
-    background-color: #e4ddf2;
+    /*#FAF0FF;*/
+    background-color: #ffffff;
     color: #312450;
 }
 
@@ -25,7 +26,7 @@ html, body {
 
 #sidebar {
     max-width: 25%;
-    min-width: 300px;
+    min-width: 230px;
 }
 
 #sidebar h3 {
@@ -38,26 +39,29 @@ html, body {
 
 #sidebar > #sidebar-nav > #sidebar-brand {
     overflow: auto;
+    background-color: #e4ddf2;
 }
 
 #sidebar > #sidebar-nav > #sidebar-brand #logo {
     background: transparent url("../../images/logo.svg") no-repeat;
-    height: 100px;
-    width: 150px;
+    height: 55px;
+    width: 130px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
     float: left;
 }
 
 #sidebar > #sidebar-nav > #sidebar-brand #logo-text {
     font-family: Tangerine;
     color: #312450;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 500;
     text-align: left;
-    margin-top: 37px;
-    margin-right: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
     float:right;
 }
 
@@ -83,7 +87,7 @@ html, body {
     letter-spacing: 1.65px;
     transition: color 0.2s ease-in;
     /*text-align: center;*/
-    margin-left: 50px;
+    margin-left: 62px;
 }
 
 #sidebar-nav li a.active {
@@ -96,34 +100,33 @@ html, body {
 }
 
 #sidebar-nav li.overview {
-    background: transparent url("../../images/icon-overview.png") no-repeat 15px;
-    
+    background: transparent url("../../images/icon-overview.png") no-repeat 25px;
 }
 
 #sidebar-nav li.expenses {
-    background: transparent url("../../images/icon-expenses.png") no-repeat 15px;
+    background: transparent url("../../images/icon-expenses.png") no-repeat 25px;
 }
 
 #sidebar-nav li.incomes {
-    background: transparent url("../../images/icon-incomes.png") no-repeat 15px;
+    background: transparent url("../../images/icon-incomes.png") no-repeat 25px;
 }
 
 #sidebar-nav li.accounts {
-    background: transparent url("../../images/icon-accounts.png") no-repeat 15px;
+    background: transparent url("../../images/icon-accounts.png") no-repeat 25px;
 }
 
 #sidebar-nav li.goals {
-    background: transparent url("../../images/icon-goals.png") no-repeat 15px;
+    background: transparent url("../../images/icon-goals.png") no-repeat 25px;
 }
 
 #sidebar-nav li.reports {
-    background: transparent url("../../images/icon-reports.png") no-repeat 15px;
+    background: transparent url("../../images/icon-reports.png") no-repeat 25px;
 }
 
 #sidebar-nav li.profile {
-    background: transparent url("../../images/icon-profile.png") no-repeat 15px;
+    background: transparent url("../../images/icon-profile.png") no-repeat 25px;
 }
 
 #sidebar-nav li.logout {
-    background: transparent url("../../images/icon-logout.png") no-repeat 15px;
+    background: transparent url("../../images/icon-logout.png") no-repeat 25px;
 }

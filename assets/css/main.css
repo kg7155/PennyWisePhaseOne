@@ -7,6 +7,8 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     width: 100%;
+    background-color: #e4ddf2;
+    color: #312450;
 }
 
 #wrapper {
@@ -16,57 +18,78 @@ html, body {
 }
 
 #main {
-  padding-left: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
 }
 
 #sidebar {
-  max-width: 25%;
-  min-width: 180px;
+    max-width: 25%;
+    min-width: 300px;
 }
 
 #sidebar h3 {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
-#logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#menu {
+#sidebar-nav {
     width: 100%;
 }
 
-#menu ul {
+#sidebar-nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    /*max-width: 25%;*/
-    background-color: #92C392;
+    background-color: #312450;
     height: 100%;
     overflow: auto;
 }
 
-#menu li {
-    padding-top: 13px;
-    padding-bottom: 13px;
+#sidebar-nav li {
+    /*text-indent: 20px;*/
+    line-height: 38px;
 }
 
-#menu li a {
+#sidebar-nav li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: #b3a6cc;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: semi-bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.2s ease-in;
+    text-align: center;
 }
 
-#menu li a.active {
-    background-color: #555;
-    color: #DEEDD5;
+#sidebar-nav li a.active {
+    color: #ffffff;
+    font-weight: 600;
 }
 
-#menu li a:hover:not(.active) {
-    color: #DEEDD5;
-    font-weight: bold;
+#sidebar-nav li a:hover:not(.active) {
+    color: #e4ddf2;
+    /*font-weight: 600;*/
+}
+
+#sidebar > #sidebar-nav > #sidebar-brand {
+    overflow: auto;
+}
+
+#sidebar > #sidebar-nav > #sidebar-brand #logo {
+    background: transparent url("../../images/logo.svg") no-repeat;
+    height: 100px;
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    float: left;
+}
+
+#sidebar > #sidebar-nav > #sidebar-brand #header {
+    font-family: Tangerine;
+    color: #312450;
+    font-size: 42px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 25px;
+    margin-right: 60px;
+    float:right;
 }

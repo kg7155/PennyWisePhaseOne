@@ -48,6 +48,11 @@ html, body {
     overflow: auto;
 }
 
+#menu li {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
 #menu li a {
     display: block;
     color: #000;

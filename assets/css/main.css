@@ -173,14 +173,17 @@ html, body {
     padding-top: 5px;
 }
 
-#main-wallpaper {
+ #main #main-wallpaper {
     background: transparent url("../../images/index-wallpaper.png") no-repeat;
     background-size: cover;
+    height: 100%;
+    margin-top: -15px;
+    margin-left: -20px;
 }
 
 #main > .inner-center > #signup-form .container {
-    width: 40%;
-    margin: 0 auto 0 -100;
+    width: 37%;
+    margin: 0 auto 0 -230;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -208,8 +211,8 @@ html, body {
 
 #main > .inner-center > #brand {
     overflow: auto;
-    width: 40%;
-    margin: -150 auto 0 -100;
+    width: 37%;
+    margin: -150 auto 0 -230;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -234,6 +237,6 @@ html, body {
     font-weight: 500;
     text-align: left;
     margin-top: 40px;
-    margin-right: 20px;
+    margin-right: 70px;
     float:right;
 }

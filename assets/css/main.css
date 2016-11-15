@@ -172,7 +172,7 @@ html, body {
     padding-top: 5px;
 }
 
-#main {
+#main-wallpaper {
     background: transparent url("../../images/index-wallpaper.png") no-repeat;
     background-size: cover;
 }

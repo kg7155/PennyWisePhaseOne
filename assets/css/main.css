@@ -179,9 +179,61 @@ html, body {
 }
 
 #main > .inner-center > #signup-form .container {
-    width: 30%;
+    width: 40%;
     margin: 0 auto 0 -100;
     top: 50%;
     left: 50%;
     position: absolute;
+}
+
+#main > .inner-center > #signup-form .container input[type=text], input[type=password] {
+    width: 90%;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#main > .inner-center > #signup-form .container button {
+    background-color: #312450;
+    color: #e4ddf2;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#main > .inner-center > #brand {
+    overflow: auto;
+    width: 40%;
+    margin: -150 auto 0 -100;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+#main > .inner-center > #brand #logo {
+    background: transparent url("../../images/logo.svg") no-repeat;
+    height: 55px;
+    width: 130px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+#main > .inner-center > #brand #logo-text {
+    font-family: Tangerine;
+    color: #312450;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 20px;
+    float:right;
 }

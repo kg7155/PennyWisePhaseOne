@@ -23,6 +23,12 @@ html, body {
     height: 100%;
 }
 
+#main-index {
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+}
+
 #sidebar {
     max-width: 25%;
     min-width: 230px;
@@ -178,7 +184,7 @@ html, body {
     padding-top: 5px;
 }
 
- #main #main-wallpaper {
+ #main-index #main-wallpaper {
     background: transparent url("../../images/index-wallpaper.png") no-repeat;
     background-size: cover;
     height: 100%;

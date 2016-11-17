@@ -306,6 +306,13 @@ input[type=text], input[type=password] {
 }
 
 .popup {
+    /*position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #312450;
+    opacity: 75%;*/
     margin-top: 50px;
 }
 
@@ -313,6 +320,14 @@ input[type=text], input[type=password] {
     background: transparent url("../../images/icon-calendar.png") no-repeat 25px 25px;
 }
 
-#add > .popup form {
-    background: yellow;
+#add > .popup ul {
+    list-style: none;
+}
+
+#add > .popup input {
+    visibility: hidden;
+}
+
+#add > .popup input:checked + label {
+    background: red;
 }

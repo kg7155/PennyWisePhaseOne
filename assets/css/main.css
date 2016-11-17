@@ -19,7 +19,6 @@ html, body {
 }
 
 #main {
-    padding-top: 15px;
     padding-left: 20px;
     width: 100%;
     height: 100%;
@@ -28,6 +27,7 @@ html, body {
 #sidebar {
     max-width: 25%;
     min-width: 230px;
+    height: 100%;
 }
 
 #sidebar h3 {
@@ -36,6 +36,7 @@ html, body {
 
 #sidebar-nav {
     width: 100%;
+    height: 100%;
     background-color: #e4ddf2;
 }
 
@@ -54,6 +55,17 @@ html, body {
     margin-bottom: 15px;
     margin-left: 15px;
     float: left;
+}
+
+#sidebar > #sidebar-nav > #sidebar-brand #logo-text-index {
+    font-family: Tangerine;
+    color: #312450;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 110px;
+    float:right;
 }
 
 #sidebar > #sidebar-nav > #sidebar-brand #logo-text {
@@ -135,11 +147,6 @@ html, body {
 
 #sidebar > #sidebar-nav > #login-form {
     background-color: #e4ddf2;
-    height: 100%;
-}
-
-#sidebar > #sidebar-nav > #login-form {
-    border: 5px;
 }
 
 #sidebar > #sidebar-nav > #login-form .container {

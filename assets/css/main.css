@@ -158,7 +158,7 @@ html, body {
     margin-top: 90px;
 }
 
-#sidebar > #sidebar-nav > #login-form .container input[type=text], input[type=password] {
+input[type=text], input[type=password] {
     width: 90%;
     height: 25px;
     margin-left: 10px;
@@ -294,7 +294,7 @@ html, body {
     color: #312450;
 }
 
-#main > #container .overlay {
+.overlay {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
@@ -305,6 +305,14 @@ html, body {
     opacity: 1;
 }
 
+.popup {
+    margin-top: 50px;
+}
+
 #main > #container #icon-calendar {
     background: transparent url("../../images/icon-calendar.png") no-repeat 25px 25px;
+}
+
+#add > .popup form {
+    background: yellow;
 }

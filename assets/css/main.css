@@ -249,3 +249,24 @@ html, body {
     position: fixed;
     float:right;
 }
+
+#main > .inner > #container {
+    margin-top: 20;
+    margin-left: 200;
+}
+
+#main > .inner > #container select {
+    background-color: #312450;
+    color: #ffffff;
+    margin-left: 30;
+    padding: 5px;
+    font-weight: semi-bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#main > .inner > #container select option:hover {
+    background-color: #e4ddf2;
+    color: #312450;
+}

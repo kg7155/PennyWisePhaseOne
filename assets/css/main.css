@@ -303,6 +303,7 @@ input[type=text], input[type=password] {
 .overlay:target {
     visibility: visible;
     opacity: 1;
+    position: fixed;
 }
 
 .popup {
@@ -313,7 +314,7 @@ input[type=text], input[type=password] {
     bottom: 0;
     background: #312450;
     opacity: 75%;*/
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 #main > #container #icon-calendar {
@@ -322,12 +323,32 @@ input[type=text], input[type=password] {
 
 #add > .popup ul {
     list-style: none;
+    display: -webkit-box;
 }
 
-#add > .popup input {
+#add > .popup input[type=radio] {
     visibility: hidden;
+    display: none;
 }
 
 #add > .popup input:checked + label {
-    background: red;
+    background: #b3a6cc;
+    color: #312450;
+    
 }
+
+#add > .popup input + label {
+    background-color: #312450;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    float: left;
+    font-size: 12px;
+    font-weight: semi bold;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+

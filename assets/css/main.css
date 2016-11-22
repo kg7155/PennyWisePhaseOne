@@ -45,12 +45,12 @@ html, body {
     background-color: #e4ddf2;
 }
 
-#sidebar > #sidebar-nav > #sidebar-brand {
+#sidebar-brand {
     overflow: auto;
     background-color: #e4ddf2;
 }
 
-#sidebar > #sidebar-nav > #sidebar-brand #logo {
+#sidebar-brand #logo {
     background: transparent url("../../images/logo.svg") no-repeat;
     height: 55px;
     width: 130px;
@@ -62,7 +62,7 @@ html, body {
     float: left;
 }
 
-#sidebar > #sidebar-nav > #sidebar-brand #logo-text-index {
+#sidebar-brand #logo-text-index {
     font-family: Tangerine;
     color: #312450;
     font-size: 35px;
@@ -73,7 +73,7 @@ html, body {
     position: fixed;
 }
 
-#sidebar > #sidebar-nav > #sidebar-brand #logo-text {
+#sidebar-brand #logo-text {
     font-family: Tangerine;
     color: #312450;
     font-size: 35px;
@@ -104,7 +104,6 @@ html, body {
     text-transform: uppercase;
     letter-spacing: 1.65px;
     transition: color 0.2s ease-in;
-    /*text-align: center;*/
     margin-left: 62px;
 }
 
@@ -149,16 +148,16 @@ html, body {
     background: transparent url("../../images/icon-logout.png") no-repeat 25px;
 }
 
-#sidebar > #sidebar-nav > #login-form {
+#login-form {
     background-color: #e4ddf2;
 }
 
-#sidebar > #sidebar-nav > #login-form .container {
+#login-form .container {
     align-content: center;
     margin-top: 90px;
 }
 
-input[type=text], input[type=password] {
+#login-form input[type=text], input[type=password] {
     width: 90%;
     height: 25px;
     margin-left: 10px;
@@ -168,7 +167,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-#sidebar > #sidebar-nav > #login-form .container button {
+#login-form .container button {
     background-color: #312450;
     color: #ffffff;
     width: 90%;
@@ -179,7 +178,7 @@ input[type=text], input[type=password] {
     border: 0px;
 }
 
-#sidebar > #sidebar-nav > #login-form .container p {
+#login-form .container p {
     font-size: 12px;
     margin-left: 10px;
     padding-top: 5px;
@@ -193,7 +192,7 @@ input[type=text], input[type=password] {
     margin-left: -20px;
 }
 
-#main > .inner-center > #signup-form .container {
+#signup-form .container {
     width: 27%;
     margin: 0 auto 0 -230;
     top: 45%;
@@ -201,7 +200,7 @@ input[type=text], input[type=password] {
     position: absolute;
 }
 
-#main > .inner-center > #signup-form .container input[type=text], input[type=password] {
+#signup-form .container input[type=text], input[type=password] {
     width: 90%;
     height: 25px;
     margin-left: 10px;
@@ -211,7 +210,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-#main > .inner-center > #signup-form .container button {
+#signup-form .container button {
     background-color: #312450;
     color: #ffffff;
     width: 90%;
@@ -222,7 +221,7 @@ input[type=text], input[type=password] {
     border: 0px;
 }
 
-#main > .inner-center > #brand {
+#brand {
     overflow: auto;
     width: 27%;
     margin: -150 auto 0 -230;
@@ -231,7 +230,7 @@ input[type=text], input[type=password] {
     position: absolute;
 }
 
-#main > .inner-center > #brand #logo {
+#brand #logo {
     background: transparent url("../../images/logo.svg") no-repeat;
     height: 55px;
     width: 130px;
@@ -243,7 +242,7 @@ input[type=text], input[type=password] {
     float: left;
 }
 
-#main > .inner-center > #brand #logo-text-signup {
+#brand #logo-text-signup {
     font-family: Tangerine;
     color: #312450;
     font-size: 35px;
@@ -281,7 +280,7 @@ input[type=text], input[type=password] {
     border: 0px;
     float: left;
     padding: 5px;
-    margin-right: 200px;
+    margin-right: 210px;
     font-size: 1em;
     font-weight: semi bold;
     width: 17px;
@@ -306,38 +305,27 @@ input[type=text], input[type=password] {
     position: fixed;
 }
 
-.popup {
-    /*position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #312450;
-    opacity: 75%;*/
+#add-expense-income-form {
     margin-top: 80px;
+    width:204px;
 }
 
-#main > #container #icon-calendar {
-    background: transparent url("../../images/icon-calendar.png") no-repeat 25px 25px;
-}
-
-#add > .popup ul {
+#add-expense-income-form ul {
     list-style: none;
-    display: -webkit-box;
 }
 
-#add > .popup input[type=radio] {
+#add-expense-income-form input[type=radio] {
     visibility: hidden;
     display: none;
 }
 
-#add > .popup input:checked + label {
+#add-expense-income-form input:checked + label {
     background: #b3a6cc;
     color: #312450;
     
 }
 
-#add > .popup input + label {
+#add-expense-income-form input + label {
     background-color: #312450;
     color: #ffffff;
     text-align: center;
@@ -352,3 +340,44 @@ input[type=text], input[type=password] {
     letter-spacing: 1px;
 }
 
+#add-expense-income-form ul li > label#radio-expense {
+    float: left;
+}
+
+#add-expense-income-form ul li label#radio-income {
+    float: right;
+}
+
+#add-expense-income-form input {
+    margin-top: 10px;
+    width: inherit;
+    height: 20px;
+}
+
+#add-expense-income-form input[type=date] {
+    color: darkgray
+}
+
+#icon-container {
+    position: relative;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#icon-cancel {
+    background: transparent url("../../images/icon-cancel.png") no-repeat;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#icon-confirm {
+    background: transparent url("../../images/icon-confirm.png") no-repeat;
+    height: 20px;
+    width: 20px;
+    float: right;
+}
+
+#main > #container #icon-calendar {
+    background: transparent url("../../images/icon-calendar.png") no-repeat 25px 25px;
+}

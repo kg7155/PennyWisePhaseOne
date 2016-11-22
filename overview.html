@@ -57,26 +57,24 @@
                             <option value="cash">Cash</option>
                         </select>
                         <div id="add" class="overlay">
-                            <div class="popup">
+                            <div id="add-expense-income-form">
                                 <ul>
                                     <li>
-                                        <input type="radio" name="addnew" value="expense" id="radio1" class="radio" checked>
-                                        <label for="radio1">Add expense</label>
+                                        <input type="radio" name="addnew" value="expense" id="radio-expense" checked>
+                                        <label for="radio-expense" id="radio-expense">Add expense</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="addnew" value="income" id="radio2" class="radio">
-                                        <label for="radio2">Add income</label>
-                                    </li>
-                                    <li>
-                                        <input type="number" name="quantity" placeholder="0.0">
-                                    </li>
-                                    <li>
-                                        <input type="text" name="category" placeholder="category">
-                                    </li>
-                                    <li>
-                                        <input type="date" name="date" placeholder="01/01/2016">
+                                        <input type="radio" name="addnew" value="income" id="radio-income">
+                                        <label for="radio-income" id="radio-income">Add income</label>
                                     </li>
                                 </ul>
+                                <input type="number" name="quantity" placeholder="0.0 (€)">
+                                <input type="text" name="category" placeholder="category">
+                                <input type="date" name="date">
+                                <div id="icon-container">
+                                    <div id="icon-cancel"></div>
+                                    <div id="icon-confirm"></div>
+                                </div>
                             </div>
                         </div>
                     </div>

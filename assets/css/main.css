@@ -313,14 +313,15 @@ html, body {
     width:204px;
 }
 
-#add-expense-income-form ul {
+.form ul {
     list-style: none;
 }
 
-#add-expense-income-form input[type=radio] {
+.form input[type=radio] {
     visibility: hidden;
     display: none;
 }
+
 
 #add-expense-income-form input:checked + label {
     background: #b3a6cc;
@@ -339,8 +340,6 @@ html, body {
     padding: 5px;
     text-decoration: none;
     transition: all 0.3s ease-out;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 #add-expense-income-form ul li > label#radio-expense {
@@ -388,4 +387,18 @@ html, body {
 #main > #container .button-acc {
     margin-right: 30px;
     padding: 7px;
+}
+
+#generate-report-form {
+    background-color: #312450;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    float: left;
+    font-size: 12px;
+    font-weight: semi bold;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }

@@ -308,11 +308,6 @@ html, body {
     position: fixed;
 }
 
-#add-expense-income-form {
-    margin-top: 125px;
-    width:204px;
-}
-
 .form ul {
     list-style: none;
 }
@@ -322,23 +317,26 @@ html, body {
     display: none;
 }
 
-
-#add-expense-income-form input:checked + label {
+.form input:checked + label {
     background: #b3a6cc;
     color: #312450;
-    
 }
 
-#add-expense-income-form input + label {
+.form input + label {
     background-color: #312450;
     color: #ffffff;
     text-align: center;
     border: 0px;
-    float: left;
     font-size: 12px;
     font-weight: semi bold;
     padding: 5px;
+    text-transform: uppercase;
     text-decoration: none;
+}
+
+#add-expense-income-form {
+    margin-top: 125px;
+    width: 204px;
     transition: all 0.3s ease-out;
 }
 
@@ -390,15 +388,11 @@ html, body {
 }
 
 #generate-report-form {
-    background-color: #312450;
-    color: #ffffff;
-    text-align: center;
-    border: 0px;
-    float: left;
-    font-size: 12px;
-    font-weight: semi bold;
-    padding: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    width: 500px;
+}
+
+#generate-report-form input {
+    margin-top: 10px;
+    width: inherit;
+    height: 20px;
 }

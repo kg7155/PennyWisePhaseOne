@@ -342,17 +342,21 @@ html, body {
     transition: all 0.3s ease-out;
 }
 
+.form ul {
+    margin-bottom: 4px;
+}
+
 .form ul li {
     display: inline;
 }
 
-#add-expense-income-form input {
-    margin-top: 10px;
-    width: inherit;
+.form input {
+    margin-top: 5px;
     height: 20px;
+    width: inherit;
 }
 
-#add-expense-income-form input[type=date] {
+.form input[type=date] {
     color: darkgray
 }
 
@@ -385,17 +389,13 @@ html, body {
     padding: 7px;
 }
 
-#generate-report-form ul li {
-    display: inline;
-}
-
 #generate-report-form select {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #generate-report-form #button-generate {
     position: fixed;
-    top: 100;
+    top: 120px;
     left: 272;
     padding: 7px;
 }

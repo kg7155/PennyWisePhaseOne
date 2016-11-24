@@ -328,7 +328,6 @@ html, body {
     color: #ffffff;
     text-align: center;
     border: 0px;
-    /*font-size: 12px;*/
     font-size: 0.72em;
     font-weight: semi bold;
     padding: 7px;
@@ -339,16 +338,12 @@ html, body {
 
 #add-expense-income-form {
     margin-top: 125px;
-    width: 209px;
+    width: 210px;
     transition: all 0.3s ease-out;
 }
 
-#add-expense-income-form ul li > label#radio-expense {
-    float: left;
-}
-
-#add-expense-income-form ul li label#radio-income {
-    float: right;
+.form ul li {
+    display: inline;
 }
 
 #add-expense-income-form input {
@@ -386,7 +381,7 @@ html, body {
 }
 
 #main > #container .button-acc {
-    margin-right: 30px;
+    margin-right: 4px;
     padding: 7px;
 }
 

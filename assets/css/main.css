@@ -274,17 +274,24 @@ html, body {
 }
 
 #main > #container .button {
-    background-color: #312450;
-    color: #ffffff;
+    background-color: #b3a6cc;
+    color: #312450;
     text-align: center;
     border: 0px;
     float: left;
     padding: 7px;
+    margin-right: 4px;
     font-size: 0.72em;
     font-weight: semi bold;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+    
+}
+
+#main > #container .button-action {
+    background-color: #312450;
+    color: #ffffff;
     transition: all 0.3s ease-out;
 }
 
@@ -292,7 +299,7 @@ html, body {
     margin-right: 210px;
 }
 
-#main > #container .button:hover {
+#main > #container .button-action:hover {
     background: #b3a6cc;
     color: #312450;
 }
@@ -382,11 +389,6 @@ html, body {
 
 #main > #container #icon-calendar {
     background: transparent url("../../images/icon-calendar.png") no-repeat 25px 25px;
-}
-
-#main > #container .button-acc {
-    margin-right: 4px;
-    padding: 7px;
 }
 
 #generate-report-form select {

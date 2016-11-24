@@ -19,9 +19,7 @@ html, body {
 
 #main {
     padding-left: 20px;
-    padding-top: 20px;
     height: 100%;
-    width: 100%;
 }
 
 #main-index {
@@ -255,8 +253,10 @@ html, body {
 }
 
 #main > #container {
-    margin-left: 20;
+    padding-top: 20px;
+    margin-left: 20px;
     width: inherit;
+    height: auto;
     position: absolute;
 }
 
@@ -383,10 +383,6 @@ html, body {
     float: right;
 }
 
-#main > #container #icon-calendar {
-    background: transparent url("../../images/icon-calendar.png") no-repeat 25px 25px;
-}
-
 #generate-report-form select {
     margin-top: 5px;
 }
@@ -422,4 +418,13 @@ html, body {
 
 #button-delete-account {
     margin-top: 70px;
+}
+
+#canvas-overview {
+    border: 1px solid;
+    position: fixed;
+    top: 400px;
+    left: 400px;
+    height: 400px;
+    width: 800px;
 }

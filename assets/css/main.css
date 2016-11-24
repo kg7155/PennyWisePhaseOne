@@ -15,6 +15,7 @@ html, body {
     width: 100%;
     margin: auto;
     display: flex;
+    overflow: hidden;
 }
 
 #main {
@@ -421,10 +422,10 @@ html, body {
 }
 
 #canvas-overview {
-    border: 1px solid;
     position: fixed;
     top: 400px;
     left: 400px;
     height: 400px;
     width: 800px;
 }
+

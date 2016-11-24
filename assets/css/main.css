@@ -264,10 +264,10 @@ html, body {
 #main > #container select {
     background-color: #312450;
     color: #ffffff;
-    margin-right: 30;
+    margin-right: 4;
     padding: 5px;
     font-weight: semi-bold;
-    font-size: 0.7em;
+    font-size: 0.72em;
     text-transform: uppercase;
     letter-spacing: 1px;
     float: left;
@@ -279,9 +279,10 @@ html, body {
     text-align: center;
     border: 0px;
     float: left;
-    padding: 5px;
-    font-size: 0.7em;
+    padding: 7px;
+    font-size: 0.72em;
     font-weight: semi bold;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.3s ease-out;
@@ -327,16 +328,18 @@ html, body {
     color: #ffffff;
     text-align: center;
     border: 0px;
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: 0.72em;
     font-weight: semi bold;
-    padding: 5px;
+    padding: 7px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 #add-expense-income-form {
     margin-top: 125px;
-    width: 204px;
+    width: 209px;
     transition: all 0.3s ease-out;
 }
 
@@ -387,12 +390,17 @@ html, body {
     padding: 7px;
 }
 
-#generate-report-form {
-    width: 500px;
+#generate-report-form ul li {
+    display: inline;
 }
 
-#generate-report-form input {
-    margin-top: 10px;
-    width: inherit;
-    height: 20px;
+#generate-report-form select {
+    margin-top: 20px;
+}
+
+#generate-report-form #button-generate {
+    position: fixed;
+    top: 100;
+    left: 272;
+    padding: 7px;
 }

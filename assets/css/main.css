@@ -7,7 +7,6 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     width: 100%;
-    /*#FAF0FF;*/
     background-color: #ffffff;
     color: #312450;
 }
@@ -20,7 +19,9 @@ html, body {
 
 #main {
     padding-left: 20px;
+    padding-top: 20px;
     height: 100%;
+    width: 100%;
 }
 
 #main-index {
@@ -257,7 +258,6 @@ html, body {
     margin-left: 20;
     width: inherit;
     position: absolute;
-    top: 20px;
 }
 
 #main > #container select {

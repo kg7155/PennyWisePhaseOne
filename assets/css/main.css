@@ -99,7 +99,6 @@ html, body {
     display: block;
     color: #b3a6cc;
     text-decoration: none;
-    font-weight: semi-bold;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1.65px;
@@ -266,7 +265,6 @@ html, body {
     color: #ffffff;
     margin-right: 4;
     padding: 5px;
-    font-weight: semi-bold;
     font-size: 0.72em;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -282,7 +280,6 @@ html, body {
     padding: 7px;
     margin-right: 4px;
     font-size: 0.72em;
-    font-weight: semi bold;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
@@ -336,7 +333,6 @@ html, body {
     text-align: center;
     border: 0px;
     font-size: 0.72em;
-    font-weight: semi bold;
     padding: 7px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -400,4 +396,30 @@ html, body {
     top: 120px;
     left: 272;
     padding: 7px;
+}
+
+#container-account-info {
+    position: fixed;
+    top: 300px;
+    color: #312450;
+    font-size: 17px;   
+}
+
+#container-account-info div {
+    padding: 5px;
+    margin-top: 15px;
+    
+    background-color: #e4ddf2;
+}
+
+.text-action {
+    font-size: 12px;
+}
+
+#save {
+    margin-top: 9px;
+}
+
+#button-delete-account {
+    margin-top: 70px;
 }

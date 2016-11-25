@@ -429,3 +429,10 @@ html, body {
     width: 800px;
 }
 
+#canvas-expenses-incomes {
+    position: fixed;
+    top: 400px;
+    left: 400px;
+    height: 400px;
+    width: 800px;
+}

@@ -28,9 +28,9 @@ for (i = 1; i <= cols+1; i++) {
 }
 
 // draw horizontal lines
-var i, scale;
+var i, scale, y;
 for (i = 0, scale = maxValue; scale >= minValue; i++, scale -= step) {
-    var y = margin * 2.5 + i * columnHeight; 
+    y = margin * 2.5 + i * columnHeight; 
     context.moveTo(columnWidth - margin, y);
     context.lineTo(canvas.width - margin, y);
     context.fillText(scale, columnWidth - margin*2.3, y + 3);		
@@ -54,10 +54,10 @@ for (i = 1; i <= cols; i++) {
             break;
     }
     x = i * columnWidth;
-    context.moveTo(x, canvas.height - 2 * margin);
+    context.moveTo(x, y);
     context.lineTo(x, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j));
     context.lineTo((i + 1) * columnWidth, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j));
-    context.lineTo((i + 1) * columnWidth, canvas.height - 2 * margin);
+    context.lineTo((i + 1) * columnWidth, y);
 }
 
 context.stroke();

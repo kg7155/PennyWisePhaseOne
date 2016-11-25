@@ -436,3 +436,13 @@ html, body {
     height: 400px;
     width: 800px;
 }
+
+#container-video {
+    border: 1px solid #312450;
+    top: 25px;
+    left: 270px;
+}
+
+#take-photo {
+    margin-top: 9px;
+}

@@ -405,7 +405,6 @@ html, body {
 #container-account-info div {
     padding: 5px;
     margin-top: 15px;
-    
     background-color: #e4ddf2;
 }
 
@@ -422,9 +421,9 @@ html, body {
 }
 
 #canvas-overview {
-    position: fixed;
-    top: 400px;
-    left: 400px;
+    position: static;
+    /*top: 400px;
+    left: 400px;*/
     height: 400px;
     width: 800px;
 }

@@ -420,6 +420,12 @@ html, body {
     margin-top: 70px;
 }
 
+#canvas-overview {
+    position: absolute;
+    top: 330px;
+    left: 0px;
+}
+
 #canvas-expenses-incomes {
     position: relative;
     top: 200px;

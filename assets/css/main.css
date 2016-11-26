@@ -420,15 +420,16 @@ html, body {
     margin-top: 70px;
 }
 
-#canvas-overview {
+#canvas-line-chart {
     position: absolute;
     top: 330px;
     left: 0px;
 }
 
 #canvas-expenses-incomes {
-    position: relative;
+    position: absolute;
     top: 200px;
+    left: 0px;
 }
 
 #container-video {

@@ -438,11 +438,14 @@ html, body {
 }
 
 #container-video {
-    border: 1px solid #312450;
     top: 25px;
     left: 270px;
 }
 
-.photo {
+#canvas-video {
+    display: none;
+}
+
+.button-photo-capture {
     margin-top: 9px;
 }

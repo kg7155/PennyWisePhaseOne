@@ -3,10 +3,19 @@ canvas.width = 800;
 canvas.height = 400;
 var context = canvas.getContext("2d");
 
-var data = [0, 0, 6.2, 33.4, 0, 3.4, 6.2, 9, 120.0, 65.2, 12.5, 0, 2.5, 2.3, 4.5, 24.4, 5, 2, 65, 2, 4, 5, 35.2, 41, 23.4, 44, 0, 2, 1, 3, 50];
+var data, step;
+if (document.getElementById("canvas-expenses-incomes").className == "expenses") {
+    data = [0, 0, 6.2, 33.4, 0, 3.4, 6.2, 9, 120.0, 65.2, 12.5, 0, 2.5, 2.3, 4.5, 24.4, 5, 2, 65, 2, 4, 5, 35.2, 41, 23.4, 44, 0, 2, 1, 3, 50];
+    step = 20;
+}
+else {
+    data = [0, 1250, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 9, 0, 0, 0, 0, 27, 0, 0, 0, 0, 146, 0, 0, 0];
+    step = 250;
+}
+
 var maxValue = Math.max.apply(Math, data);
 var minValue = Math.min.apply(Math, data);
-var step = 20;
+
 var cols = 31;
 var rows = (maxValue - minValue) / step + 1;
 var margin = 10;
@@ -57,6 +66,7 @@ for (i = 1; i <= cols; i++) {
     context.moveTo(x, y);
     context.lineTo(x, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j));
     context.lineTo((i + 1) * columnWidth, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j));
+    context.fillText(data[i-1], x+2, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j) - 3);
     context.lineTo((i + 1) * columnWidth, y);
 }
 

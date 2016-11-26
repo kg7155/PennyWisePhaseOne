@@ -64,6 +64,7 @@ for (i = 1; i <= cols; i++) {
         else 
             break;
     }
+    context.fillText(data[i-1], i * columnWidth - 5, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j) - 5);
     context.moveTo(i * columnWidth, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i-1] - j) );
     context.lineTo( (i + 1) * columnWidth, margin * 2.5 + c * columnHeight - (columnHeight / step) * (data[i] - j) );
 }

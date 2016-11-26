@@ -194,7 +194,7 @@ html, body {
 
 #signup-form .container {
     width: 27%;
-    margin: 0 auto 0 -230;
+    margin: 0px auto 0px -230px;
     top: 45%;
     left: 50%;
     position: absolute;
@@ -225,7 +225,7 @@ html, body {
 #brand {
     overflow: auto;
     width: 27%;
-    margin: -150 auto 0 -230;
+    margin: -150px auto 0px -230px;
     top: 45%;
     left: 50%;
     position: absolute;
@@ -266,7 +266,7 @@ html, body {
 #main > #container select {
     background-color: #312450;
     color: #ffffff;
-    margin-right: 4;
+    margin-right: 4px;
     padding: 5px;
     font-size: 0.72em;
     text-transform: uppercase;
@@ -286,7 +286,6 @@ html, body {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    
 }
 
 #main > #container .button-action {
@@ -393,7 +392,7 @@ html, body {
 #generate-report-form #button-generate {
     position: fixed;
     top: 120px;
-    left: 272;
+    left: 272px;
     padding: 7px;
 }
 

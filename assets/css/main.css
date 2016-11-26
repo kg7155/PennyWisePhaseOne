@@ -420,20 +420,9 @@ html, body {
     margin-top: 70px;
 }
 
-#canvas-overview {
-    position: static;
-    /*top: 400px;
-    left: 400px;*/
-    height: 400px;
-    width: 800px;
-}
-
 #canvas-expenses-incomes {
-    position: fixed;
-    top: 400px;
-    left: 400px;
-    height: 400px;
-    width: 800px;
+    position: relative;
+    top: 200px;
 }
 
 #container-video {

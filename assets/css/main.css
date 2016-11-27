@@ -11,46 +11,47 @@ html, body {
     color: #312450;
 }
 
-#wrapper {
+.wrapper {
     width: 100%;
+    height: 100%;
     margin: auto;
     display: flex;
     overflow: hidden;
 }
 
-#main {
+.main {
     padding-left: 20px;
     height: 100%;
 }
 
-#main-index {
+.main-index {
     padding-left: 20px;
     height: 100%;
     width: 100%;
 }
 
-#sidebar {
+.sidebar {
     max-width: 25%;
     min-width: 230px;
     height: 100%;
 }
 
-#sidebar h3 {
+.sidebar h3 {
     padding-left: 20px;
 }
 
-#sidebar-nav {
+.sidebar-nav {
     width: 100%;
     height: 100%;
     background-color: #e4ddf2;
 }
 
-#sidebar-brand {
+.sidebar-brand {
     overflow: auto;
     background-color: #e4ddf2;
 }
 
-#sidebar-brand #logo {
+.sidebar-brand .logo {
     background: transparent url("../../images/logo.svg") no-repeat;
     height: 55px;
     width: 130px;
@@ -62,7 +63,7 @@ html, body {
     float: left;
 }
 
-#sidebar-brand #logo-text-index {
+.sidebar-brand .logo-text-index {
     font-family: Tangerine;
     color: #312450;
     font-size: 35px;
@@ -73,7 +74,7 @@ html, body {
     position: fixed;
 }
 
-#sidebar-brand #logo-text {
+.sidebar-brand .logo-text {
     font-family: Tangerine;
     color: #312450;
     font-size: 35px;
@@ -84,18 +85,18 @@ html, body {
     float:right;
 }
 
-#sidebar-nav ul {
+.sidebar-nav ul {
     list-style-type: none;
     background-color: #312450;
     height: 805px;
     overflow: auto;
 }
 
-#sidebar-nav li {
+.sidebar-nav li {
     line-height: 55px;
 }
 
-#sidebar-nav li a {
+.sidebar-nav li a {
     display: block;
     color: #b3a6cc;
     text-decoration: none;
@@ -106,44 +107,44 @@ html, body {
     margin-left: 62px;
 }
 
-#sidebar-nav li a.active {
+.sidebar-nav li a.active {
     color: #ffffff;
     font-weight: 600;
 }
 
-#sidebar-nav li a:hover:not(.active) {
+.sidebar-nav li a:hover:not(.active) {
     color: #e4ddf2;
 }
 
-#sidebar-nav li.overview {
+.sidebar-nav li.overview {
     background: transparent url("../../images/icon-overview.png") no-repeat 25px;
 }
 
-#sidebar-nav li.expenses {
+.sidebar-nav li.expenses {
     background: transparent url("../../images/icon-expenses.png") no-repeat 25px;
 }
 
-#sidebar-nav li.incomes {
+.sidebar-nav li.incomes {
     background: transparent url("../../images/icon-incomes.png") no-repeat 25px;
 }
 
-#sidebar-nav li.accounts {
+.sidebar-nav li.accounts {
     background: transparent url("../../images/icon-accounts.png") no-repeat 25px;
 }
 
-#sidebar-nav li.goals {
+.sidebar-nav li.goals {
     background: transparent url("../../images/icon-goals.png") no-repeat 25px;
 }
 
-#sidebar-nav li.reports {
+.sidebar-nav li.reports {
     background: transparent url("../../images/icon-reports.png") no-repeat 25px;
 }
 
-#sidebar-nav li.profile {
+.sidebar-nav li.profile {
     background: transparent url("../../images/icon-profile.png") no-repeat 25px;
 }
 
-#sidebar-nav li.logout {
+.sidebar-nav li.logout {
     background: transparent url("../../images/icon-logout.png") no-repeat 25px;
 }
 
@@ -184,7 +185,7 @@ html, body {
     padding-top: 5px;
 }
 
- #main-index #main-wallpaper {
+ .main-index .main-wallpaper {
     background: transparent url("../../images/index-wallpaper.png") no-repeat;
     background-size: cover;
     height: 100%;
@@ -222,7 +223,7 @@ html, body {
     border: 0px;
 }
 
-#brand {
+.brand {
     overflow: auto;
     width: 27%;
     margin: -150px auto 0px -230px;
@@ -231,7 +232,7 @@ html, body {
     position: absolute;
 }
 
-#brand #logo {
+.brand .logo {
     background: transparent url("../../images/logo.svg") no-repeat;
     height: 55px;
     width: 130px;
@@ -243,7 +244,7 @@ html, body {
     float: left;
 }
 
-#brand #logo-text-signup {
+.brand .logo-text {
     font-family: Tangerine;
     color: #312450;
     font-size: 35px;
@@ -255,7 +256,7 @@ html, body {
     float:right;
 }
 
-#main > #container {
+.main > .container {
     padding-top: 20px;
     margin-left: 20px;
     width: inherit;
@@ -263,7 +264,7 @@ html, body {
     position: absolute;
 }
 
-#main > #container select {
+.main > .container select {
     background-color: #312450;
     color: #ffffff;
     margin-right: 4px;
@@ -274,7 +275,7 @@ html, body {
     float: left;
 }
 
-#main > #container .button {
+.main > .container .button {
     background-color: #b3a6cc;
     color: #312450;
     text-align: center;
@@ -288,17 +289,17 @@ html, body {
     text-transform: uppercase;
 }
 
-#main > #container .button-action {
+.main > .container .button-action {
     background-color: #312450;
     color: #ffffff;
     transition: all 0.3s ease-out;
 }
 
-#main > #container #button-add {
+.main > .container #button-add {
     margin-right: 210px;
 }
 
-#main > #container .button-action:hover {
+.main > .container .button-action:hover {
     background: #b3a6cc;
     color: #312450;
 }
@@ -396,14 +397,14 @@ html, body {
     padding: 7px;
 }
 
-#container-account-info {
+.container-account-info {
     position: fixed;
     top: 300px;
     color: #312450;
     font-size: 17px;   
 }
 
-#container-account-info div {
+.container-account-info div {
     padding: 5px;
     margin-top: 15px;
     background-color: #e4ddf2;
@@ -433,7 +434,7 @@ html, body {
     left: 0px;
 }
 
-#container-video {
+.container-video {
     top: 25px;
     left: 270px;
 }

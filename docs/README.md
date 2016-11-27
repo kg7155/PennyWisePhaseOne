@@ -15,3 +15,9 @@ Posebna gradnika strani
 Podstrani Overview, Expenses, Incomes in Reports vsebujejo HTML5 Canvas, na katerega sem narisala graf. Podstrani Overview in Reports vsebujeta črtni graf (angl. line chart), preostali dve pa stolpični graf (angl. bar graph). Vsi grafi so prilagodljivi in lahko prikažejo poljuben nabor podatkov.
 
 Naslednji posebni gradnik je zajem videa v podstrani Profile. Če uporabnik dovoli dostop do kamere, se v elementu video prikaže slika v živo. Ko uporabnik pritisne na gumb "Snap!", se element video skrije in prikaže se canvas, ki izriše sliko. Uporabnik lahko posname novo fotografijo s klikom na "Take a new photo". Ker zaenkrat v tej fazi še ni zalednega dela, se slika nikamor ne shrani.
+
+Problemi
+Na strani je trenutno preveč div id-jev in v prihajajočih dneh jih nameravam spremeniti v razrede.
+
+Komentarji
+Stran je dostopna na https://penny-wise.azurewebsites.net.
